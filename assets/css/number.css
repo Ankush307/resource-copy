@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+
+@font-face {
+    font-family: "MaisonNeuelight";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff') format('woff');
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "MaisonNeue";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "MaisonNeueMono";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff') format('woff');
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: "SohneSchmal";
+    src: url('https://www.venveo.com/dist/fonts/sohne-schmal/soehne-schmal-dreiviertelfett.woff2') format('woff2');
+}
+
+.spacemononormal {
+    font-family: "Space Mono", monospace;
+}
+
+.SohneSchmal {
+    font-family: SohneSchmal;
+}
+
+.MaisonNeueMono {
+    font-family: MaisonNeueMono;
+}
+
+.MaisonNeue {
+    font-family: MaisonNeue;
+}
+
+.leading-88 {
+    line-height: 88%;
+}
+
+.leading-100 {
+    line-height: 100%;
+}
+
+.leading-68 {
+    line-height: 148%;
+}
+
+.w-372 {
+    max-width: 414px;
+}
+
+
+
+.leading-83 {
+    line-height: 83%;
+}
+
+.w-126 {
+    max-width: 126px;
+}
+
+.w-323 {
+    max-width: 303px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.input-name {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.bg-white-green-1 {
+    background-size: contain;
+    min-height: 100vh;
+    background-color: #D2F038;
+}
+
+.your-name {
+    min-width: 300px;
+    height: 64px;
+    width: 100%;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+
+.site-btn {
+    padding: 31px 32px 31px 32px;
+}
+
+.w-420 {
+    max-width: 420px;
+}
+
+.arrow-image {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .your-name {
+        min-width: 449px;
+        height: 64px;
+        width: 100%;
+    }
+    .mt-lg-75 {
+        margin-top: 75px;
+    }
+
+    .arrow-image {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-70%);
+        display: block;
+    }
+}
